@@ -1,0 +1,42 @@
+.aside-formations{
+    border-top: 1px solid ;
+    padding: 1rem;
+    }
+    .aside-formations-title{
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin : 0 0 0.5rem 0 ;
+    }
+    .aside-formations-name{
+        margin : 0;
+        font-weight: 700;
+    }
+    
+    .aside-formations-date{
+        font-size: 1rem;
+        font-weight: lighter;
+        opacity: 0.5;
+        margin : 0.5rem 0 ;
+    }
+    .aside-formations-entreprise{
+    font-size: 1.3rem;
+    margin :0 0 0.5rem 0;
+    }
+    .aside-formations-list li{
+       list-style: none;
+       margin-bottom: 0.5rem;
+       padding: 0 1rem  ;
+    
+    
+    }
+    .aside-formations-list li::before{
+        position :relative;
+      left: -1em;
+      content: " ";
+      display: inline-block;
+      width: 0.5em;
+      height: 0.5em;
+      background-color: #311fbf;
+      border-radius: 2px;
+      margin-right: -0.6rem;
+     }

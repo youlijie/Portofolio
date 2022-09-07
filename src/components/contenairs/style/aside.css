@@ -1,0 +1,42 @@
+.aside-container{
+    position :relative ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    min-width : 320px;
+    width : 25vw;
+    margin-top: -120px;
+    background : whitesmoke;
+    border-radius: 20px;
+    margin : -120px 20px 3rem 20px;
+    height : fit-content;
+    background-image: url('../../../assets/pictures/white-tone.jpg');
+background-repeat: no-repeat ;
+    background-size: cover;
+}
+.aside-collapse{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border: 5px solid rgba(255, 255, 255, 0.345);
+    border-top: none;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    width: 4em;
+    height: 2em;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    background-color: whitesmoke;
+    transform: translateY(99%);
+    background-image: url('../../../assets/pictures/white-tone.jpg');
+    background-repeat: no-repeat ;
+        background-size: cover;
+}
+@media screen and (max-width: 800px){
+    .aside-container{
+        width : 90vw;
+        margin-bottom: 50px;
+  }
+  }
+  

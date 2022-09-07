@@ -1,0 +1,27 @@
+.aside-links{
+    display:flex;
+    width:stretch;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.aside-links-icons{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    align-items:center;
+    justify-content:space-around;   
+}
+.aside-links-redirect{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width : 2.6rem;
+    height : 2.6rem;
+    border-radius: 50%;
+    background:lightsteelblue ;
+    cursor:pointer;
+    transition:all 0.3s;
+}
+.aside-links-redirect:hover{
+    transform: scale(1.1);
+    background:rgb(176, 206, 236);
+}

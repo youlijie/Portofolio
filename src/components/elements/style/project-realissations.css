@@ -1,0 +1,152 @@
+.project-realisations{
+    width: 100%;
+ 
+}
+.project-realisations-title{
+    display: flex;
+    align-items: center;
+}
+.project-realisations-title h2{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.project-relisations-title-line{
+    flex-grow: 1;
+    border-bottom: 5px dotted #6255c2;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.project-relisations-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+.project-relisations-card{
+    color: whitesmoke;
+    min-width: 340px;
+    max-width: 545px;
+    min-height:300px;
+    max-height: 500px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+   margin-bottom :40px ;
+   margin-right: 30px;
+   overflow : hidden;
+   flex-grow: 1;
+   flex-basis: 35%;
+}
+.project-relisations-card h2{
+margin : 0
+}
+.project-relisations-card-info{
+    position: absolute;
+    top : 0;
+    left:0;
+    width: stretch;
+    height: stretch;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    background: rgb(6,0,36);
+    background: linear-gradient(180deg, rgba(6,0,36,1) 0%, rgba(0, 0, 0, 0.304) 0%, rgba(255,255,255,0) 40%);
+    padding : 20px;
+    border-radius: 20px 0 20px 20px;
+    z-index: 1;
+}
+.project-relisations-hover{
+    
+            opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+   
+    display: flex;
+    flex-direction: column;
+   
+    padding-top : 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #5040c4bf, #ffffffb1);
+        }
+        .project-relisations-hover p {
+            height: fit-content;
+            margin-left : 20px;
+            margin-right: 2.5rem;
+        }
+.project-relisations-hover:hover , .project-relisations-card-info:hover > .project-relisations-hover{
+    opacity : 1 ;
+}
+.project-realisation-background-video{
+    position: absolute ;
+    top : 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    z-index: 0;
+    height :100%;
+    width : 100%;
+    object-fit: cover;
+    border-radius: 20px;
+   
+}
+
+.project-realisation-corner{
+position :absolute ;
+right :-3rem ;
+top: -3rem;
+display: flex ;
+align-items: center;
+justify-content:center;
+height : 6rem ; 
+width : 6rem;
+background : whitesmoke ;
+transform: rotate(45deg);
+cursor : pointer ;
+}
+.project-realisation-corner:hover + .project-realisation-corner-icon , .project-realisation-corner-icon:hover{
+opacity : 1 ;
+transform: scale(1.1);
+}
+.project-realisation-corner-icon{
+    position :absolute ;
+    right :0.5rem ;
+    top: 0.5rem;
+    opacity : 0.5;
+    transition: all 0.5s;
+}
+.aside-technologies-technos{
+display: flex;
+}
+.aside-technologies-technos div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #ffffff7d;
+    border-radius: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 800px){
+    .project-relisations-cards{
+        flex-direction: column;
+        align-items: center;
+  }
+  }

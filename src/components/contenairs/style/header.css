@@ -1,0 +1,10 @@
+.header{
+    background-image: url('../../../assets/pictures/sky.jpg');
+    background-color: #311fbf;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    border-bottom: 3px solid #cbc6ee;
+    overflow: hidden;
+    height : 40vh ;
+    width :100vw;
+}

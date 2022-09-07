@@ -1,0 +1,41 @@
+
+.app {
+  display : flex ; 
+  flex-direction :column;
+  
+}
+main{
+  display : flex;
+width : 100%;
+background-image: url('./assets/pictures/white-texture.jpg');
+background-repeat: no-repeat ;
+    background-size: cover;
+}
+.blue-macro::before{
+  bottom: 0.85em;
+  left: -0.6em;
+  content: " ";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #311fbf;
+  border-radius: 2px;
+  margin-right: 1rem;
+}
+.no-scroll{
+  overflow: hidden;
+}
+.rotate-180{
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 800px){
+  main{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+
+

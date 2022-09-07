@@ -1,0 +1,12 @@
+.aside-message{
+    width: 90%;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding: 20px 5%;
+    margin-bottom: 1em;
+    color: #ffffff;
+    background-color: #4e3fc1;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
