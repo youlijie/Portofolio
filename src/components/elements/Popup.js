@@ -45,7 +45,7 @@ const closePopup = () => {
             <h3>Links</h3>
             <p className = "popup-links-p"><span className="popup-links-black">Github :</span> <span className="popup-links-spanlink" onClick={githubLink}>{data.data.githubLink}</span></p>
         
-            <p className = "popup-links-p"><span className="popup-links-black">Lien direct :</span> <span className="popup-links-spanlink" onClick={directLink} >{data.data.directLink}</span> </p>
+            <p className = "popup-links-p"><span className="popup-links-black">Direct Link :</span> <span className="popup-links-spanlink" onClick={directLink} >{data.data.directLink}</span> </p>
           </div>
         </div>
         <div className = "popup-description-images">
