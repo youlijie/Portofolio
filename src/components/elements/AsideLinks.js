@@ -22,7 +22,7 @@ export default function AsideLinks() {
     <ProfilePicture />
     <div className = "aside-links-icons">
     <div className = "aside-links-redirect"><i data-id="https://www.linkedin.com/in/thibault-werl%C3%A9-1527491b8/?locale=en_US/" className = "icon icon-linkedin" onClick={redirect}></i></div>
-    <div className = "aside-links-redirect"><i data-id="https://drive.google.com/file/d/1uOewcCMMZ9XXOWjsIyNJdP4WJVKlKgmO/view?usp=sharing" className = "icon icon-cv" onClick={redirect}></i></div>
+    <div className = "aside-links-redirect"><i data-id="https://drive.google.com/file/d/1bJkhehtdR-cJmb48LRCJ_3XfAVfTlI_r/view?usp=sharing" className = "icon icon-cv" onClick={redirect}></i></div>
     </div>
   </div>
   );
