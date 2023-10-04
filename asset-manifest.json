@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.1bc0d77c.css",
-    "main.js": "/Portofolio/static/js/main.0a9d6687.js",
+    "main.css": "/Portofolio/static/css/main.3cf6a3c9.css",
+    "main.js": "/Portofolio/static/js/main.1f241f04.js",
     "static/js/787.b7af92ad.chunk.js": "/Portofolio/static/js/787.b7af92ad.chunk.js",
     "static/media/jobsapi.mp4": "/Portofolio/static/media/jobsapi.a0bb573738dd3331b346.mp4",
     "static/media/kasa.mp4": "/Portofolio/static/media/kasa.eaf756dc405c8573844a.mp4",
@@ -41,15 +41,16 @@
     "static/media/stripe.mp4": "/Portofolio/static/media/stripe.a9bd68442a56fe937985.mp4",
     "static/media/stripe1.png": "/Portofolio/static/media/stripe1.8eab029288504bd4433d.png",
     "static/media/taskmanager1.png": "/Portofolio/static/media/taskmanager1.e7e66feeef35af2c91b5.png",
+    "static/media/mysql.png": "/Portofolio/static/media/mysql.be993d46256fced8bafc.png",
     "static/media/express.png": "/Portofolio/static/media/express.9b344d7469dbbdc76754.png",
     "static/media/cv.svg": "/Portofolio/static/media/cv.1d5fa73b8116daa1a935.svg",
     "index.html": "/Portofolio/index.html",
-    "main.1bc0d77c.css.map": "/Portofolio/static/css/main.1bc0d77c.css.map",
-    "main.0a9d6687.js.map": "/Portofolio/static/js/main.0a9d6687.js.map",
+    "main.3cf6a3c9.css.map": "/Portofolio/static/css/main.3cf6a3c9.css.map",
+    "main.1f241f04.js.map": "/Portofolio/static/js/main.1f241f04.js.map",
     "787.b7af92ad.chunk.js.map": "/Portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bc0d77c.css",
-    "static/js/main.0a9d6687.js"
+    "static/css/main.3cf6a3c9.css",
+    "static/js/main.1f241f04.js"
   ]
 }
