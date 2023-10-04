@@ -52,8 +52,17 @@
     background-image : url('../assets/icons-techno/typescript.png');
     border-radius : 50% ;
 }
+.icon-angular{
+    background-image : url('../assets/icons-techno/angular.png');
+}
 .icon-express{
     background-image : url('../assets/icons-techno/express.png');
+}
+.icon-python{
+    background-image : url('../assets/icons-techno/python.png');
+}
+.icon-mysql{
+    background-image : url('../assets/icons-techno/mysql.png');
 }
 .icon-cv{
     background-image: url('../assets/icon-utilities/cv.svg');

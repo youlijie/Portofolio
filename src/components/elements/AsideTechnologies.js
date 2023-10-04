@@ -7,6 +7,9 @@ export default function AsideTechnologies() {
       <h2 className="aside-technologies-title">TECHNOLOGIES</h2>
       <section className="aside-technologies-cards">
       <div className="aside-technologies-card">
+        <i className="icon icon-python"></i>Python
+      </div>
+      <div className="aside-technologies-card">
         <i className="icon icon-git"></i>Git
       </div>
       <div className="aside-technologies-card">
@@ -31,6 +34,12 @@ export default function AsideTechnologies() {
         <i className="icon icon-redux"></i>Redux
       </div>
       <div className="aside-technologies-card">
+        <i className="icon icon-typescript"></i>TypeScript
+      </div>
+      <div className="aside-technologies-card">
+        <i className="icon icon-angular"></i>Angular
+      </div>
+      <div className="aside-technologies-card">
         <i className="icon icon-node"></i>Node.js
       </div>
       <div className="aside-technologies-card">
@@ -40,7 +49,7 @@ export default function AsideTechnologies() {
         <i className="icon icon-mongodb"></i>Mongodb
       </div>
       <div className="aside-technologies-card">
-        <i className="icon icon-typescript"></i>TypeScript
+        <i className="icon icon-mysql"></i>MySQL
       </div>
       </section>
     </div>
